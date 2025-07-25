@@ -12,6 +12,6 @@ export type Product = {
 };
 
 export interface Order {
-  items: (Product & { quantity: number })[]; // ✅ add quantity per item
+  items: (Product & { quantity: number })[]; 
   date: string;
 }
